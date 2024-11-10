@@ -29,7 +29,7 @@ export default function VideoPlayer() {
     <div>
       {/* Video element */}
       <video ref={videoRef} width="600" controls={false} preload="auto">
-        <source src="your-video-url.mp4" type="video/mp4" />
+        <source src="/assets/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
